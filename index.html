@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Complex UI</title>
+</head>
+<body>
+
+<!-- Complex UI navbar Using Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Complex UI</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                        <a class="nav-link" href="#sec-1">Section 1</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sec-2">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sec-3">
+                      Section 3
+                    </a>
+                  </li>
+                </ul>
+                <form class="nav-search" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success nav-btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+    </nav>
+
+<!-- Complex UI Carousel Section Using Bootstrap Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                  <img src="./building.jpg" class="d-block w-100" alt="building">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Buildings</h5>
+                      <p>Buldings going high above the sky.</p>
+                      <a class="btn btn-primary" href="https://unsplash.com/s/photos/buildings">Call to Action</a>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                  <img src="./bridge.jpg" class="d-block w-100" alt="bridge">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Bridges</h5>
+                      <p>Some bridges having the highest length in the world.</p>
+                      <a class="btn btn-primary" href="https://unsplash.com/s/photos/bridges">Call to Action</a>
+                  </div>
+            </div>
+            <div class="carousel-item">
+                  <img src="./mountains.jpg" class="d-block w-100" alt="mountain">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Mountains</h5>
+                      <p>Everest is the highest mountain peak in the world.</p>
+                      <a class="btn btn-primary" href="https://unsplash.com/s/photos/mountains">Call to Action</a>
+                  </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>    
+    </div>
+
+<!-- Section using flex property -->
+    <div class="section-1" id="sec-1">
+        <div class="label">
+            <img src="./trees.jpg" alt="trees">
+            <blockquote>Green Pine Trees</blockquote>
+        </div>
+        <div class="label">
+            <img src="./air-balloons.jpg" alt="balloons">
+            <blockquote>Hot Air Balloons in sky</blockquote>
+        </div>
+        <div class="label">
+            <img src="./deer.jpg" alt="deer">
+            <blockquote>Deer in the Snow</blockquote>
+        </div>
+    </div>
+
+<!-- Gallery Section using grid property -->
+    <div class="gallery" id="sec-2">
+            <div>
+                <img src="./sunset1.jpg" alt="img1">
+            </div>
+
+            <div>
+                <img src="./sunset2.jpg" alt="img2">
+            </div>
+            <div>
+                <img src="./sunset3.jpg" alt="img3">
+            </div>
+            <div>
+                <img src="./sunset4.jpg" alt="img4">
+            </div>
+            <div>
+                <img src="./sunset5.jpg" alt="img5">
+            </div>
+            <div>
+                <img src="./sunset6.jpg" alt="img6">
+            </div>
+            <div>
+                <img src="./sunset7.jpg" alt="img7">
+            </div>
+            <div>
+                <img src="./sunset8.jpg" alt="img8">
+            </div>
+            <div>
+                <img src="./sunset9.jpg" alt="img9">
+            </div>
+    </div> 
+
+<!-- Card Section Using Bootstap Cards -->
+    <div class="card-section" id="sec-3">
+        <div class="card" style="width: 18rem;">
+            <img src="./flowers.jpg" class="card-img-top" alt="flowers">
+            <div class="card-body">
+              <h5 class="card-title">Beautiful Flowers</h5>
+              <p class="card-text">Beautiful Flowers Under The Cloudy Sky.</p>
+              <a href="https://www.pexels.com/search/flowers/" class="btn btn-primary">Call to Actions</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./mountain-ocean.jpg" class="card-img-top" alt="mountain">
+            <div class="card-body">
+              <h5 class="card-title">Mountain-Ocean View</h5>
+              <p class="card-text">Woman Sitting on Top of a Mountain With Ocean View.</p>
+              <a href="https://www.pexels.com/search/mountains/" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./camp.jpg" class="card-img-top" alt="camp">
+            <div class="card-body">
+              <h5 class="card-title">Person's Camping Tent</h5>
+              <p class="card-text">Silhouette of Person Standing Near Camping Tent
+                .</p>
+              <a href="https://www.pexels.com/search/camping/" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+    </div>
+
+<!--Complex UI Footer -->
+    <footer class="text-bg-light">
+        <div class="container d-flex">
+            <div class="col-md-4 d-flex flex-column">
+                <h5>Useful Links</h5>
+                <a href="godaddy.com/en-in/websites/website-builder">Home</a>
+                <a href="godaddy.com/en-in/websites/website-builder">About Us</a>
+                <a href="godaddy.com/en-in/websites/website-builder">Services</a>
+            </div>
+            <div class="col-md-4 d-flex flex-column">
+                <h5>More Links</h5>
+                <a href="godaddy.com/en-in/websites/website-builder">Achievements</a>
+                <a href="godaddy.com/en-in/websites/website-builder">Locations</a>
+                <a href="godaddy.com/en-in/websites/website-builder">Works</a>
+            </div>
+            <div class="col-md-4 d-flex flex-column">
+                <h5>Contact Us</h5>
+                <p>Email: shwetapal975@gmail.com</p>
+                <p>Phone: +91-9797979797</p>
+            </div>
+            <div class="container d-flex justify-content-between">
+                <p>© 2023 Complex UI. All Rights Reserved</p>
+                <a href="#Top" class="btn btn-primary foo-btn">Back To Top</a>
+            </div>
+        </div>      
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+</body>
+</html>
